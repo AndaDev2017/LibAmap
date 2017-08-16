@@ -18,3 +18,15 @@ android {
         }
     }
 }
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+
+//dependencies {
+//    //说明：navi导航SDK 5.0.0以后版本包含了3D地图SDK，所以请不要同时引入 map3d 和 navi SDK。
+//    //compile 'com.amap.api:3dmap:5.3.0' //3D地图
+//    compile 'com.amap.api:navi-3dmap:5.1.0' //导航
+//    compile 'com.amap.api:search:5.3.0' //搜索
+//    compile 'com.amap.api:location:3.5.0' //定位
+//}
